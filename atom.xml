@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>DGLW</title>
+ <link href="http://www.dglw.nethttp://www.dglw.net/atom.xml" rel="self"/>
+ <link href="http://www.dglw.nethttp://www.dglw.net/"/>
+ <updated>2015-04-22T21:21:14-04:00</updated>
+ <id>http://www.dglw.net</id>
+ <author>
+   <name>Mark Otto</name>
+   <email>markdotto@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Welcome!</title>
+   <link href="http://www.dglw.net/2015/04/22/welcome/"/>
+   <updated>2015-04-22T00:00:00-04:00</updated>
+   <id>http://www.dglw.nethttp://www.dglw.net/2015/04/22/welcome</id>
+   <content type="html">&lt;p&gt;This site has now been updated to utilize &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, &lt;a href=&quot;https://nodejs.org/&quot;&gt;node.js&lt;/a&gt;, &lt;a href=&quot;https://github.com/poole/poole&quot;&gt;Poole&lt;/a&gt; and the &lt;a href=&quot;https://github.com/poole/lanyon&quot;&gt;Lanyon&lt;/a&gt; theme.&lt;/p&gt;
+
+&lt;h3 id=&quot;built-on-jekyll-amp-poole&quot;&gt;Built on Jekyll &amp;amp; Poole&lt;/h3&gt;
+
+&lt;p&gt;Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by &lt;a href=&quot;https://twitter.com/mdo&quot;&gt;@mdo&lt;/a&gt;. &lt;a href=&quot;https://github.com/poole/lanyon#readme&quot;&gt;Head to the readme&lt;/a&gt; to learn more. Thanks!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Application Roundup&colon; Catch</title>
+   <link href="http://www.dglw.net/2013/02/22/application-roundup-catch/"/>
+   <updated>2013-02-22T00:00:00-05:00</updated>
+   <id>http://www.dglw.nethttp://www.dglw.net/2013/02/22/application-roundup-catch</id>
+   <content type="html">&lt;p&gt;Task/Idea Management &amp;amp; Note Taking: Catch&lt;/p&gt;
+
+&lt;p&gt;One great web &amp;amp; mobile application I generally suggest to those looking for a simple management interface for their notes, tasks, and ideas, is Catch. It’s easy to use and quick to update tasks and ideas as you move about your day.&lt;/p&gt;
+
+&lt;p&gt;When it comes to the plethora of task/idea management apps, Catch competes with the best when it comes to interface controls for users and seamless syncing. The mobile app navigation “fan” is quick to understand and navigate; You’ll soon wish that other apps were organized this way.&lt;/p&gt;
+
+&lt;p&gt;See if it works for you. You can find the free task management application at Catch or on your applicable app market for your smartphone.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Application Roundup&colon; Trello</title>
+   <link href="http://www.dglw.net/2013/01/12/application-roundup-trello/"/>
+   <updated>2013-01-12T00:00:00-05:00</updated>
+   <id>http://www.dglw.nethttp://www.dglw.net/2013/01/12/application-roundup-trello</id>
+   <content type="html">&lt;p&gt;Kanban Board: Trello&lt;/p&gt;
+
+&lt;p&gt;There are numerous task management applications out there to assist you in managing, executing, and completing your . They range from desktop to web-based applications, with many being open-source, standalone applications that you can deploy on your own server. I’ve had my share of experiences with deploying LAMP (read: PHP) project/task management applications with good results, including Trac, Project Pier, and Project HQ. The installs were relatively straight forward and should have you up and running in an hour or two. However, the downside is, you have to maintain this type of environment yourself.&lt;/p&gt;
+
+&lt;p&gt;Although there’s something to be said about understanding the server install and deployment process for these open-sourced task management software, having an out-of-the-box, quick web solution is great for task management. Enter Trello. A web-based kanban board style interface, it allows the user quick access to task status. The drag and drop feature, although not new, is great when moving tasks from the que to “in action”. You can also color code your “epics”, which is nice for quick view on an updated task when being pressed on the conference call.&lt;/p&gt;
+
+&lt;p&gt;See if it works for you. You can find the free task management software &lt;a href=&quot;https://trello.com/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Success, 7UP style</title>
+   <link href="http://www.dglw.net/2012/10/12/success-7up-style/"/>
+   <updated>2012-10-12T00:00:00-04:00</updated>
+   <id>http://www.dglw.nethttp://www.dglw.net/2012/10/12/success-7up-style</id>
+   <content type="html">&lt;p&gt;Article Roundup #1 today comes from the very popular financial journal, Forbes. I personally found the seven steps outlined in the article to be enlightening. Although I would be weary of the #1 step, “Marry a June Baby”, since emotional conflicts and mis-management can arise from doing business with friends and family, I love step #2, “Think Small”. For the same reasons I try to abide by the process followed by 37 Signals, as outlined in a previous blog post on their book Getting Real.&lt;/p&gt;
+
+&lt;p&gt;Check it out at &lt;a href=&quot;http://www.forbes.com/sites/stevenberglas/2012/09/20/seven-7-steps-to-entrepreneurial-success/2/&quot;&gt;Forbes: Seven Steps to Entrepreneurial Success.&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Band&colon; Zammuto</title>
+   <link href="http://www.dglw.net/2012/09/24/zammuto/"/>
+   <updated>2012-09-24T00:00:00-04:00</updated>
+   <id>http://www.dglw.nethttp://www.dglw.net/2012/09/24/zammuto</id>
+   <content type="html">&lt;p&gt;Some of you may know my deep love for a band by the name of &lt;a href=&quot;http://www.thebooksmusic.com/&quot;&gt;The Books&lt;/a&gt;. If you are new to the band and are interested in listening, I would recommend starting with their earlier stuff and working you’r way to their latest album, The Way Out.&lt;/p&gt;
+
+&lt;p&gt;One part of their two-piece, Nick Zammuto, has started another project bearing his namesake, Zammuto. Although in their infancy, their sound provides a distinct departure from The Books, however, still seems to incorporate sound styles and tribute rhythm sections from the band. You can check them out &lt;a href=&quot;http://zammutosound.com/&quot;&gt;here&lt;/a&gt; and &lt;a href=&quot;http://zammutosound.com/music&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Zammuto will be performing in Philadelphia this Saturday, 9/29/12. Hope to see you there!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Revisiting Getting Real</title>
+   <link href="http://www.dglw.net/2012/09/10/getting-real/"/>
+   <updated>2012-09-10T00:00:00-04:00</updated>
+   <id>http://www.dglw.nethttp://www.dglw.net/2012/09/10/getting-real</id>
+   <content type="html">&lt;p&gt;Every year I revisit one of my favorite application and project management bibles, 37 Signal’s Getting Real. If you are interested in building successful web applications, new to the process, or just bettering yourself and your work, this is a great read for you. I can’t recommend enough how much I work on focusing on building more by building less, concentrating on those components that actually matter to the build process and disregarding those that don’t.&lt;/p&gt;
+
+&lt;p&gt;For a nominal fee (your email address), you can read 37 Signal’s Application Project Process at 37 Signals: Getting Real.&lt;/p&gt;
+
+&lt;p&gt;I have also begun reading “Rework” by 37 Signals, A book on better managing a business in our present, hectic, and inefficient workplaces.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
