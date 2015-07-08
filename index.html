@@ -88,18 +88,22 @@
     
       
         
+      
+    
+      
+        
           <a class="sidebar-nav-item" href="/resume/">Resume</a>
         
       
     
+    <!--<div><a href="https://twitter.com/theodore_weld"><img src="/images/twitter-icon.png" /></a>&nbsp;<a href="https://www.facebook.com/david.gl.wolf"><img src="/images/facebook-icon.jpg" width="32px" height="32px" /></a>&nbsp;<a href="https://www.linkedin.com/profile/view?id=28702956"><img src="/images/linkedin-icon.jpg" width="32px" height="32px"  /></a>
+    </div>-->
     <a class="sidebar-nav-item" href="http://github.com/theodoreweld">GitHub project</a>
     <span class="sidebar-nav-item">Currently v1.0.0</span>
   </nav>
 
   <div class="sidebar-item">
-  <!--<div><a href="https://twitter.com/theodore_weld"><img src="/images/twitter-icon.png" /></a>&nbsp;<a href="https://www.facebook.com/david.gl.wolf"><img src="/images/facebook-icon.jpg" width="32px" height="32px" /></a>&nbsp;<a href="https://www.linkedin.com/profile/view?id=28702956"><img src="/images/linkedin-icon.jpg" width="32px" height="32px"  /></a>
-  	</div>-->
-    <p>
+   <p>
       &copy; 2015. All rights reserved.
     </p>
   </div>
@@ -123,18 +127,48 @@
   
   <div class="post">
     <h1 class="post-title">
-      <a href="http://www.dglw.net//2015/06/25/welcome/">
+      <a href="http://www.dglw.net//2015/07/05/welcome/">
         Welcome!
       </a>
     </h1>
 
-    <span class="post-date">25 Jun 2015</span>
+    <span class="post-date">05 Jul 2015</span>
 
-    <p>This site has now been updated to utilize <a href="http://jekyllrb.com/">Jekyll</a>, <a href="https://nodejs.org/">node.js</a>, <a href="https://github.com/poole/poole">Poole</a> and the <a href="https://github.com/poole/lanyon">Lanyon</a> theme by <a href="https://twitter.com/mdo">@mdo</a>. <a href="https://github.com/poole/lanyon#readme">Head to the readme</a> to learn more.</p>
+    <p>This site has been updated to utilize <a href="http://jekyllrb.com/">Jekyll</a>, <a href="https://nodejs.org/">node.js</a>, <a href="https://github.com/poole/poole">Poole</a> and the <a href="https://github.com/poole/lanyon">Lanyon</a> theme.</p>
 
 <p>This website will serve as a comprehensive place for my thoughts on all things professional to leisure.  Topics of professional interest include application development, business intelligence (BI), and digital project management.  Personal interests include snowboarding, bass playing, beer making, and following the Philadelphia sports teams.</p>
 
 <h3 id="david-wolf">_David Wolf</h3>
+
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="http://www.dglw.net//2015/06/28/ransomware/">
+        Ransomware and the case for backups
+      </a>
+    </h1>
+
+    <span class="post-date">28 Jun 2015</span>
+
+    <p>As a lot of my friends, I have become the resident IT expert for my family.  This means I may get called upon to handle all technical requests, from accessing email to deciphering the dreaded Windows blue-screen-of-death.  However, in my latest attempt to address my Mother’s concern that something was “very wrong with the computer this time,” remoting into the machine wasn’t an option.  So I took a drive to visit my parents and see what the problem was, and on the desktop background was a glaring message that read something of the following:</p>
+
+<p><img src="http://securityaffairs.co/wordpress/wp-content/uploads/2014/07/Critroni-ransomware-2.png" /></p>
+
+<p>My parents had become victims of <a href="https://en.wikipedia.org/wiki/Ransomware">Ransomware</a>. <br />  This can happen by generally (a) downloading a malicious package via an untrusted but well-disguised email, or (b) through an <a href="http://www.eweek.com/security/slideshows/adobe-flash-vulnerabilities-ransomware-on-the-rise.html">Adobe Flash vulnerability</a>.  The later is not suprising to most techies, as flash has been known to have vulnerabilities, the latest being a <a href="http://www.theverge.com/2015/7/8/8911077/adobe-flash-hacking-team-vulnerability">huge vulnerability</a> that may lead to remote root access to your machine.</p>
+
+<p>When first run, the ransomware payload installs itself in the user profile folder, and adds a key to the registry that causes it to run on startup. It then attempts to contact one of several designated command and control servers; once connected, the server generates a 2048-bit RSA key pair, and sends the public key back to the infected computer.The payload then encrypts files across local hard drives and mapped network drives with the public key, and logs each file encrypted to a registry key.</p>
+
+<p>Now I pride myself in finding the optimum solution for whatever the problem is, but this was a whole new ballgame.  Quickly checking their documents folder, all of my parents files had been encrypted.  Every. single. one.  Scrubbing the registry had no effect, and I unaware of the steps that were being taken in <a href="https://en.wikipedia.org/wiki/Operation_Tovar">Operation Tovar</a> to disrupt the botnet that controlled the flavor of Ransomware that had infected my parent’s computer.  For once, I was defeated.</p>
+
+<p>As there was no way I was going to pay the ransom, the only thing that saved my parent’s personal files was the auto-backup that I enabled when I first provisioned their Windows machine.  Re-installing the OS with a clean backup was the only option that allowed me to save my parents personal documents.</p>
+
+<p>So there are two morals to this post:</p>
+<ul>
+<li>1. Don't open any email attachment in which you are not 100% sure of the sender identity.</li>
+<li>2. Setup an auto-backup service to protect your files in the case of cataclysmic failure.</li>
+</ul>
 
 
   </div>
@@ -193,28 +227,11 @@
 
   </div>
   
-  <div class="post">
-    <h1 class="post-title">
-      <a href="http://www.dglw.net//2015/01/20/getting-real/">
-        Revisiting Getting Real
-      </a>
-    </h1>
-
-    <span class="post-date">20 Jan 2015</span>
-
-    <p>Every year I revisit one of my favorite application and project management bibles, 37 Signal’s Getting Real. If you are interested in building successful web applications, new to the process, or just bettering yourself and your work, this is a great read for you. I can’t recommend enough how much I work on focusing on building more by building less, concentrating on those components that actually matter to the build process and disregarding those that don’t.</p>
-
-<p>For a nominal fee (your email address), you can read 37 Signal’s Application Project Process at 37 Signals: Getting Real.</p>
-
-<p>I have also begun reading “Rework” by 37 Signals, A book on better managing a business in our present, hectic, and inefficient workplaces.</p>
-
-  </div>
-  
 </div>
 
 <div class="pagination">
   
-    <span class="pagination-item older">Older</span>
+    <a class="pagination-item older" href="http://www.dglw.net/page2">Older</a>
   
   
     <span class="pagination-item newer">Newer</span>
