@@ -11,7 +11,7 @@
 
   <title>
     
-      Ransomware and the case for backups &middot; DGLW
+      DGLW &middot; Personal Musings of David Wolf
     
   </title>
 
@@ -123,63 +123,38 @@
       </div>
 
       <div class="container content">
-        <div class="post">
-  <h1 class="post-title">Ransomware and the case for backups</h1>
-  <span class="post-date">28 Jun 2015</span>
-  <p>As a lot of my friends, I have become the resident IT expert for my family.  This means I may get called upon to handle all technical requests, from accessing email to deciphering the dreaded Windows blue-screen-of-death.  However, in my latest attempt to address my Mother’s concern that something was “very wrong with the computer this time,” remoting into the machine wasn’t an option.  So I took a drive to visit my parents and see what the problem was, and on the desktop background was a glaring message that read something of the following:</p>
+        <div class="posts">
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="http://www.dglw.net//2015/01/20/getting-real/">
+        Revisiting Getting Real
+      </a>
+    </h1>
 
-<p><img src="http://securityaffairs.co/wordpress/wp-content/uploads/2014/07/Critroni-ransomware-2.png" /></p>
+    <span class="post-date">20 Jan 2015</span>
 
-<p>My parents had become victims of <a href="https://en.wikipedia.org/wiki/Ransomware">Ransomware</a>. <br /><br />  This can happen by generally (a) downloading a malicious package via an untrusted but well-disguised email, or (b) through an <a href="http://www.eweek.com/security/slideshows/adobe-flash-vulnerabilities-ransomware-on-the-rise.html">Adobe Flash vulnerability</a>.  The later is not suprising to most techies, as flash has been known to have vulnerabilities, the latest being a <a href="http://www.theverge.com/2015/7/8/8911077/adobe-flash-hacking-team-vulnerability">huge vulnerability</a> that may lead to remote root access to your machine.</p>
+    <p>Every year I revisit one of my favorite application and project management bibles, 37 Signal’s Getting Real. If you are interested in building successful web applications, new to the process, or just bettering yourself and your work, this is a great read for you. I can’t recommend enough how much I work on focusing on building more by building less, concentrating on those components that actually matter to the build process and disregarding those that don’t.</p>
 
-<p>When first run, the ransomware payload installs itself in the user profile folder, and adds a key to the registry that causes it to run on startup. It then attempts to contact one of several designated command and control servers; once connected, the server generates a 2048-bit RSA key pair, and sends the public key back to the infected computer.The payload then encrypts files across local hard drives and mapped network drives with the public key, and logs each file encrypted to a registry key.</p>
+<p>For a nominal fee (your email address), you can read 37 Signal’s Application Project Process at 37 Signals: Getting Real.</p>
 
-<p>Now I pride myself in finding the optimum solution for whatever the problem is, but this was a whole new ballgame.  Quickly checking their documents folder, all of my parents files had been encrypted.  Every. single. one.  Scrubbing the registry had no effect, and I unaware of the steps that were being taken in <a href="https://en.wikipedia.org/wiki/Operation_Tovar">Operation Tovar</a> to disrupt the botnet that controlled the flavor of Ransomware that had infected my parent’s computer.  For once, I was defeated.</p>
+<p>I have also begun reading “Rework” by 37 Signals, A book on better managing a business in our present, hectic, and inefficient workplaces.</p>
 
-<p>As there was no way I was going to pay the ransom, the only thing that saved my parent’s personal files was the auto-backup that I enabled when I first provisioned their Windows machine.  Re-installing the OS with a clean backup was the only option that allowed me to save my parents personal documents.</p>
-
-<p>So there are two morals to this post:</p>
-<ol>
-<li>Don't open any email attachment in which you are not 100% sure of the sender identity.</li>
-<li>Setup an auto-backup service to protect your files in the case of cataclysmic failure.</li>
-</ol>
-
-
+  </div>
+  
 </div>
 
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
+<div class="pagination">
+  
+    <span class="pagination-item older">Older</span>
+  
+  
     
-      <li>
-        <h3>
-          <a href="http://www.dglw.net/2015/07/05/welcome/">
-            Welcome!
-            <small>05 Jul 2015</small>
-          </a>
-        </h3>
-      </li>
+      <a class="pagination-item newer" href="http://www.dglw.net/">Newer</a>
     
-      <li>
-        <h3>
-          <a href="http://www.dglw.net/2015/04/12/application-roundup-catch/">
-            Application Roundup&colon; Catch
-            <small>12 Apr 2015</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="http://www.dglw.net/2015/02/12/success-7up-style/">
-            Success, 7UP style
-            <small>12 Feb 2015</small>
-          </a>
-        </h3>
-      </li>
-    
-  </ul>
+  
 </div>
+
 
       </div>
     </div>

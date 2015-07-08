@@ -156,7 +156,7 @@
 
 <p><img src="http://securityaffairs.co/wordpress/wp-content/uploads/2014/07/Critroni-ransomware-2.png" /></p>
 
-<p>My parents had become victims of <a href="https://en.wikipedia.org/wiki/Ransomware">Ransomware</a>. <br />  This can happen by generally (a) downloading a malicious package via an untrusted but well-disguised email, or (b) through an <a href="http://www.eweek.com/security/slideshows/adobe-flash-vulnerabilities-ransomware-on-the-rise.html">Adobe Flash vulnerability</a>.  The later is not suprising to most techies, as flash has been known to have vulnerabilities, the latest being a <a href="http://www.theverge.com/2015/7/8/8911077/adobe-flash-hacking-team-vulnerability">huge vulnerability</a> that may lead to remote root access to your machine.</p>
+<p>My parents had become victims of <a href="https://en.wikipedia.org/wiki/Ransomware">Ransomware</a>. <br /><br />  This can happen by generally (a) downloading a malicious package via an untrusted but well-disguised email, or (b) through an <a href="http://www.eweek.com/security/slideshows/adobe-flash-vulnerabilities-ransomware-on-the-rise.html">Adobe Flash vulnerability</a>.  The later is not suprising to most techies, as flash has been known to have vulnerabilities, the latest being a <a href="http://www.theverge.com/2015/7/8/8911077/adobe-flash-hacking-team-vulnerability">huge vulnerability</a> that may lead to remote root access to your machine.</p>
 
 <p>When first run, the ransomware payload installs itself in the user profile folder, and adds a key to the registry that causes it to run on startup. It then attempts to contact one of several designated command and control servers; once connected, the server generates a 2048-bit RSA key pair, and sends the public key back to the infected computer.The payload then encrypts files across local hard drives and mapped network drives with the public key, and logs each file encrypted to a registry key.</p>
 
@@ -165,10 +165,10 @@
 <p>As there was no way I was going to pay the ransom, the only thing that saved my parent’s personal files was the auto-backup that I enabled when I first provisioned their Windows machine.  Re-installing the OS with a clean backup was the only option that allowed me to save my parents personal documents.</p>
 
 <p>So there are two morals to this post:</p>
-<ul>
-<li>1. Don't open any email attachment in which you are not 100% sure of the sender identity.</li>
-<li>2. Setup an auto-backup service to protect your files in the case of cataclysmic failure.</li>
-</ul>
+<ol>
+<li>Don't open any email attachment in which you are not 100% sure of the sender identity.</li>
+<li>Setup an auto-backup service to protect your files in the case of cataclysmic failure.</li>
+</ol>
 
 
   </div>
