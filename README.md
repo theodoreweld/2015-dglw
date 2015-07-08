@@ -1,6 +1,6 @@
-# Site: DGLW.NET
-# Author: David Wolf (theodoreweld)
-# Site Dependencies: node.js, jekyll, poole, lanyon
+## Site: DGLW.NET
+## Author: David Wolf (theodoreweld)
+## Site Dependencies: node.js, jekyll, poole, lanyon
 
 2015 version of personal website of David Gordon Lawrence Wolf (DGLW).  Running [Jekyll](http://jekyllrb.com), a static-site generator, and relying on Poole and Lanyon for templating/UI.
 
@@ -13,7 +13,7 @@ Lanyon is a theme built on top of [Poole](https://github.com/poole/poole), which
 
 ### Sidebar menu
 
-Create a list of nav links in the sidebar by assigning each Jekyll page the correct layout in the page's [front-matter](http://jekyllrb.com/docs/frontmatter/).
+Creating a list of nav links in the sidebar is quick.  Simply assign each Jekyll page the correct layout in the page's [front-matter](http://jekyllrb.com/docs/frontmatter/).
 
 ```
 ---
@@ -43,7 +43,7 @@ To use a theme, add any one of the available theme classes to the `<body>` eleme
 
 To create your own theme, look to the Themes section of [included CSS file](https://github.com/poole/lanyon/blob/master/public/css/lanyon.css). Copy any existing theme (they're only a few lines of CSS), rename it, and change the provided colors.
 
-## Author
+## Author of Lanyon
 
 **Mark Otto**
 - <https://github.com/mdo>
