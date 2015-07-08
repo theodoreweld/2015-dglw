@@ -5,8 +5,8 @@
     <description></description>
     <link>http://www.dglw.nethttp://www.dglw.net/</link>
     <atom:link href="http://www.dglw.nethttp://www.dglw.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 08 Jul 2015 13:04:21 -0400</pubDate>
-    <lastBuildDate>Wed, 08 Jul 2015 13:04:21 -0400</lastBuildDate>
+    <pubDate>Wed, 08 Jul 2015 14:36:48 -0400</pubDate>
+    <lastBuildDate>Wed, 08 Jul 2015 14:36:48 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -35,11 +35,11 @@
 
 &lt;p&gt;When first run, the ransomware payload installs itself in the user profile folder, and adds a key to the registry that causes it to run on startup. It then attempts to contact one of several designated command and control servers; once connected, the server generates a 2048-bit RSA key pair, and sends the public key back to the infected computer.The payload then encrypts files across local hard drives and mapped network drives with the public key, and logs each file encrypted to a registry key.&lt;/p&gt;
 
-&lt;p&gt;Now I pride myself in finding the optimum solution for whatever the problem is, but this was a whole new ballgame.  Quickly checking their documents folder, all of my parents files had been encrypted.  Every. single. one.  Scrubbing the registry had no effect, and I unaware of the steps that were being taken in &lt;a href=&quot;https://en.wikipedia.org/wiki/Operation_Tovar&quot;&gt;Operation Tovar&lt;/a&gt; to disrupt the botnet that controlled the flavor of Ransomware that had infected my parent’s computer.  For once, I was defeated.&lt;/p&gt;
+&lt;p&gt;Now, I pride myself in trying to find the optimum solution for whatever the problem is, but this was a whole new ballgame.  Quickly checking their documents folder, all of my parents files had been encrypted.  Every. single. one.  Scrubbing the registry had no effect, and I was unaware of the steps that were being taken in &lt;a href=&quot;https://en.wikipedia.org/wiki/Operation_Tovar&quot;&gt;Operation Tovar&lt;/a&gt; to disrupt the botnet that controlled the flavor of Ransomware that had infected my parent’s computer.  For once, I was defeated.&lt;/p&gt;
 
 &lt;p&gt;As there was no way I was going to pay the ransom, the only thing that saved my parent’s personal files was the auto-backup that I enabled when I first provisioned their Windows machine.  Re-installing the OS with a clean backup was the only option that allowed me to save my parents personal documents.&lt;/p&gt;
 
-&lt;p&gt;So there are two morals to this post:&lt;/p&gt;
+&lt;p&gt;So, there are two morals to this story:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Don&#39;t open any email attachment in which you are not 100% sure of the sender identity.&lt;/li&gt;
 &lt;li&gt;Setup an auto-backup service to protect your files in the case of cataclysmic failure.&lt;/li&gt;
@@ -49,23 +49,6 @@
         <pubDate>Sun, 28 Jun 2015 00:00:00 -0400</pubDate>
         <link>http://www.dglw.nethttp://www.dglw.net/2015/06/28/ransomware/</link>
         <guid isPermaLink="true">http://www.dglw.nethttp://www.dglw.net/2015/06/28/ransomware/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Application Roundup&amp;colon; Catch</title>
-        <description>&lt;p&gt;Task/Idea Management &amp;amp; Note Taking: Catch&lt;/p&gt;
-
-&lt;p&gt;One great web &amp;amp; mobile application I generally suggest to those looking for a simple management interface for their notes, tasks, and ideas, is Catch. It’s easy to use and quick to update tasks and ideas as you move about your day.&lt;/p&gt;
-
-&lt;p&gt;When it comes to the plethora of task/idea management apps, Catch competes with the best when it comes to interface controls for users and seamless syncing. The mobile app navigation “fan” is quick to understand and navigate; You’ll soon wish that other apps were organized this way.&lt;/p&gt;
-
-&lt;p&gt;See if it works for you. You can find the free task management application at Catch or on your applicable app market for your smartphone.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 12 Apr 2015 00:00:00 -0400</pubDate>
-        <link>http://www.dglw.nethttp://www.dglw.net/2015/04/12/application-roundup-catch/</link>
-        <guid isPermaLink="true">http://www.dglw.nethttp://www.dglw.net/2015/04/12/application-roundup-catch/</guid>
         
         
       </item>
@@ -105,9 +88,9 @@
         <title>Revisiting Getting Real</title>
         <description>&lt;p&gt;Every year I revisit one of my favorite application and project management bibles, 37 Signal’s Getting Real. If you are interested in building successful web applications, new to the process, or just bettering yourself and your work, this is a great read for you. I can’t recommend enough how much I work on focusing on building more by building less, concentrating on those components that actually matter to the build process and disregarding those that don’t.&lt;/p&gt;
 
-&lt;p&gt;For a nominal fee (your email address), you can read 37 Signal’s Application Project Process at 37 Signals: Getting Real.&lt;/p&gt;
+&lt;p&gt;You can read “37 Signals: Getting Real” for free via one of their products, &lt;a href=&quot;https://basecamp.com/books/Getting%20Real.pdf&quot;&gt;Basecamp&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;I have also begun reading “Rework” by 37 Signals, A book on better managing a business in our present, hectic, and inefficient workplaces.&lt;/p&gt;
+&lt;p&gt;I have also begun reading “Rework” by 37 Signals, A book on better managing a business in our present, hectic, and sometimes inefficient workplaces.&lt;/p&gt;
 </description>
         <pubDate>Tue, 20 Jan 2015 00:00:00 -0500</pubDate>
         <link>http://www.dglw.nethttp://www.dglw.net/2015/01/20/getting-real/</link>
